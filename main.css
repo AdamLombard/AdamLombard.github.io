@@ -36,3 +36,9 @@ i {
 i:hover {
   color: #6BBF59;
 }
+
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+  color: #0B6E4F;
+}
