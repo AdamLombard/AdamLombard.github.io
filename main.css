@@ -1,14 +1,16 @@
-body
-{
+body {
   background-color: #0B132B;
 }
 
-#content
-{
+h1 {
+  font-size: 250%;
+}
+
+#content {
   position: absolute;
   margin: auto;
   padding: 10px;
-  top: 0;
+  top: -10%;
   right: 0;
   bottom: 0;
   left: 0;
@@ -21,24 +23,15 @@ body
   border: 0px solid white;
 }
 
-#links {
-  color: #0B6E4F;
+.icon {
+  margin: 0px 5px;
 }
 
-h1 {
-  font-size: 250%;
-}
-
-i {
-  margin: 0px 10px;
-}
-
-i:hover {
+.icon:hover {
   color: #6BBF59;
 }
 
-a:hover, a:visited, a:link, a:active
-{
+a:visited, a:link, a:active {
   text-decoration: none;
   color: #0B6E4F;
 }
