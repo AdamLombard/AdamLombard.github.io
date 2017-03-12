@@ -1,9 +1,25 @@
 body {
-  background-color: #0B132B;
+  background-color: #1B1B1E;
 }
 
 h1 {
   font-size: 250%;
+  color: #D8DBE2;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 145%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  text-align: center;
+  color: #D8DBE2;
+  font-size: 75%;
 }
 
 #content {
@@ -16,22 +32,16 @@ h1 {
   left: 0;
   width: 800px;
   height: 300px;
-  background-color: #0B132B;
-  text-align: center;
-  color: #306BAC;
-  font-family: 'Raleway', sans-serif;
+  background-color: #1B1B1E;
   border: 0px solid white;
-}
-
-.icon {
-  margin: 0px 5px;
-}
-
-.icon:hover {
-  color: #6BBF59;
+  text-align: center;
 }
 
 a:visited, a:link, a:active {
   text-decoration: none;
-  color: #0B6E4F;
+  color: #373F51;
+}
+
+a:hover {
+  color: #D8DBE2;
 }
