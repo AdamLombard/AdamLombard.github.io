@@ -30,8 +30,9 @@
     <script>
       // shared map values
       var mapboxUrl   = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
-          attribution = 'Data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contribs., <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://mapbox.com">Mapbox</a>',
-          accessToken = 'pk.eyJ1IjoiYWRhbWxvbWJhcmQiLCJhIjoiY2l4eGxkZjAzMDAzMDMzcDllcjJ0YWdzNCJ9.afe8-vnKF9aasAtpHwpEjw';
+          attribution = 'Data &copy; <a href="http://openstreetmap.org">OSM</a> contribs., <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://mapbox.com">Mapbox</a>',
+          accessToken = 'pk.eyJ1IjoiYWRhbWxvbWJhcmQiLCJhIjoiY2l4eGxkZjAzMDAzMDMzcDllcjJ0YWdzNCJ9.afe8-vnKF9aasAtpHwpEjw',
+          centerOfUSA = [39, -98];
 
       var mapStreets = L.tileLayer(mapboxUrl, {
             attribution: attribution,
@@ -50,8 +51,8 @@
           });
 
       var mymap = L.map('mapid', {
-            center: [51.505, -0.09],
-            zoom: 15,
+            center: centerOfUSA,
+            zoom: 4,
             layers: mapStreets
           });
 
