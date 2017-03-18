@@ -29,18 +29,39 @@
     <div id="mapid"></div>
     <script>
       // shared map values
-      var mapboxUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
+      var mapboxUrl   = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
           attribution = 'Data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contribs., <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://mapbox.com">Mapbox</a>',
           accessToken = 'pk.eyJ1IjoiYWRhbWxvbWJhcmQiLCJhIjoiY2l4eGxkZjAzMDAzMDMzcDllcjJ0YWdzNCJ9.afe8-vnKF9aasAtpHwpEjw';
 
-      var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+      var mapStreets = L.tileLayer(mapboxUrl, {
+            attribution: attribution,
+            id: 'mapbox.streets',
+            accessToken: accessToken
+          }),
+          mapSatellite = L.tileLayer(mapboxUrl, {
+            attribution: attribution,
+            id: 'mapbox.satellite',
+            accessToken: accessToken
+          }),
+          mapTerrain = L.tileLayer(mapboxUrl, {
+            attribution: attribution,
+            id: 'mapbox.outdoors',
+            accessToken: accessToken
+          });
 
-      L.tileLayer(mapboxUrl, {
-        attribution: attribution,
-        maxZoom: 18,
-        id: 'mapbox.streets',
-        accessToken: accessToken
-        }).addTo(mymap);
+      var mymap = L.map('mapid', {
+            center: [51.505, -0.09],
+            zoom: 15,
+            layers: mapStreets
+          });
+
+      var baseMaps = {
+            "Streets": mapStreets,
+            "Terrain": mapTerrain,
+            "Satellite": mapSatellite
+          };
+
+      L.control.layers(baseMaps).addTo(mymap);
     </script>
   </body>
 </html>
