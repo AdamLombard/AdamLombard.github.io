@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Where They Wrote</title>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Mapbox -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.0/mapbox-gl.css' rel='stylesheet' />
+    
+    <!-- Custom Styles -->
+    <style>
+      body {
+        margin:0;
+        padding:0;
+      }
+      #map {
+        position: absolute;
+        top:0;
+        bottom:0;
+        width:100%;
+      }
+      .mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id='map'></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoiYWRhbWxvbWJhcmQiLCJhIjoiY2l4eGxkZjAzMDAzMDMzcDllcjJ0YWdzNCJ9.afe8-vnKF9aasAtpHwpEjw';
+
+      let map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/adamlombard/cj1cizgyk00262sphniw1ubhr',
+        center: [-5.692108, 56.110753],
+        zoom: 7
+      });
+
+      let writersmap = 'writersmap'
+
+      map.on('load', function () {
+        // On click, open popup (with HTML description)
+        map.on('click', writersmap, function (e) {
+          new mapboxgl.Popup()
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML(e.features[0].properties.Description)
+            .addTo(map);
+        });
+
+        // Change cursor to pointer over the writersmap layer
+        map.on('mouseenter', writersmap, function () {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', writersmap, function () {
+          map.getCanvas().style.cursor = '';
+        });
+      });
+    </script>
+  </body>
+</html>
