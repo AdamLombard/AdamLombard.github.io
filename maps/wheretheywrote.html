@@ -9,6 +9,9 @@
     <!-- Mapbox -->
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Raleway" rel="stylesheet">
     
     <!-- Custom Styles -->
     <style>
@@ -18,9 +21,31 @@
       }
       #map {
         position: absolute;
-        top:0;
-        bottom:0;
-        width:100%;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      #heading {
+        text-align: center;
+        font-family: 'Cutive Mono', monospace;
+      }
+      #sidebar {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 320px;
+        background: #404040;
+        box-shadow: 5px 0px 5px #404040;
+        font-family: 'Raleway', serif;
+        color: #F6F6F4;
+        
+      }
+      .separator {
+        height: 1px;
+        width: 200px;
+        background: #f6f6f4;
+        margin-left: auto;
+        margin-right: auto;
       }
       .mapboxgl-popup {
         max-width: 400px;
@@ -31,6 +56,20 @@
 
   <body>
     <div id='map'></div>
+    <div id='sidebar'>
+      <div>
+        <h2 id='heading'>Where They Wrote</h2>
+      </div>
+      <div class='separator'></div>
+      <div>
+        <h3 id='place'></h3>
+      </div>
+      <div>
+        <p id='description'></p>
+      </div>
+
+
+    </div>
     <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiYWRhbWxvbWJhcmQiLCJhIjoiY2l4eGxkZjAzMDAzMDMzcDllcjJ0YWdzNCJ9.afe8-vnKF9aasAtpHwpEjw';
 
@@ -46,10 +85,15 @@
       map.on('load', function () {
         // On click, open popup (with HTML description)
         map.on('click', writersmap, function (e) {
-          new mapboxgl.Popup()
-            .setLngLat(e.features[0].geometry.coordinates)
-            .setHTML(e.features[0].properties.Description)
-            .addTo(map);
+          // new mapboxgl.Popup()
+          //   .setLngLat(e.features[0].geometry.coordinates)
+          //   .setHTML(e.features[0].properties.Name)
+          //   .addTo(map);
+
+          document.getElementById('place')
+            .innerHTML = e.features[0].properties.Name;
+
+          document.getElementById('description').innerHTML = e.features[0].properties.Description;
         });
 
         // Change cursor to pointer over the writersmap layer
