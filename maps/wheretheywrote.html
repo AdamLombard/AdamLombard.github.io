@@ -11,7 +11,7 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.0/mapbox-gl.css' rel='stylesheet' />
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Merriweather:300" rel="stylesheet">
     
     <!-- Custom Styles -->
     <style>
@@ -25,31 +25,51 @@
         bottom: 0;
         width: 100%;
       }
-      #heading {
+      #sidebar-heading {
         text-align: center;
         font-family: 'Cutive Mono', monospace;
+        color: #AEC0C2;
       }
       #sidebar {
         position: absolute;
         top: 0;
         bottom: 0;
-        width: 320px;
+        width: 340px;
         background: #404040;
         box-shadow: 5px 0px 5px #404040;
-        font-family: 'Raleway', serif;
+        font-family: 'Merriweather', serif;
         color: #F6F6F4;
         
       }
-      .separator {
+      #place-name {
+        text-align: center;
+        color: #F7D192;
+      }
+      #place-description {
+        padding: 10px;
+      }
+      .separator, .separator-short {
         height: 1px;
         width: 200px;
         background: #f6f6f4;
         margin-left: auto;
         margin-right: auto;
       }
+      .separator-short {
+        width: 120px;
+      }
+
       .mapboxgl-popup {
         max-width: 400px;
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      }
+      a:visited, a:link, a:active {
+        text-decoration: none;
+        color: #f6f6f4;
+      }
+
+      a:hover {
+        color: #C57C79;
       }
     </style>
   </head>
@@ -58,14 +78,25 @@
     <div id='map'></div>
     <div id='sidebar'>
       <div>
-        <h2 id='heading'>Where They Wrote</h2>
+        <h1 id='sidebar-heading'>Where They Wrote</h1>
       </div>
+      
       <div class='separator'></div>
+      
       <div>
-        <h3 id='place'></h3>
+          <h2 id='place-name'>
+            <div style="font-size: 16px; color: #f6f6f4">
+              <p>"I long, as does every human being, to be at home wherever I find myself."</p>
+              <p><i>~ Maya Angelou</i></p>
+            </div>
+          </h2>
       </div>
-      <div>
+
+      <div class='separator-short'></div>
+
+      <div id='place-description'>
         <p id='description'></p>
+        <p style="font-size: 80%"><a href='' id='more-info'></a></p>
       </div>
 
 
@@ -76,8 +107,8 @@
       let map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/adamlombard/cj1cizgyk00262sphniw1ubhr',
-        center: [-5.692108, 56.110753],
-        zoom: 7
+        center: [-2.242126, 53.477538],
+        zoom: 5
       });
 
       let writersmap = 'writersmap'
@@ -85,15 +116,21 @@
       map.on('load', function () {
         // On click, open popup (with HTML description)
         map.on('click', writersmap, function (e) {
-          // new mapboxgl.Popup()
-          //   .setLngLat(e.features[0].geometry.coordinates)
-          //   .setHTML(e.features[0].properties.Name)
-          //   .addTo(map);
+          new mapboxgl.Popup()
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML(e.features[0].properties.Image)
+            .addTo(map);
 
-          document.getElementById('place')
+          document.getElementById('place-name')
             .innerHTML = e.features[0].properties.Name;
 
-          document.getElementById('description').innerHTML = e.features[0].properties.Description;
+          document.getElementById('description')
+            .innerHTML = e.features[0].properties.Description;
+
+          document.getElementById('more-info')
+            .innerHTML = 'More info...';
+          document.getElementById('more-info')
+            .href = e.features[0].properties.MoreInfo;
         });
 
         // Change cursor to pointer over the writersmap layer
