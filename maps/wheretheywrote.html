@@ -63,7 +63,6 @@
       .separator-short {
         width: 120;
       }
-
       .mapboxgl-popup {
         max-width: 400px;
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -72,7 +71,6 @@
         text-decoration: none;
         color: #f6f6f4;
       }
-
       a:hover {
         color: #c57c79;
       }
@@ -111,62 +109,76 @@
     <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiYWRhbWxvbWJhcmQiLCJhIjoiY2l4eGxkZjAzMDAzMDMzcDllcjJ0YWdzNCJ9.afe8-vnKF9aasAtpHwpEjw';
 
+      // Create Map
       let map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/adamlombard/cj1kdjijn00132smzsp6bkwpg',
-        center: [-2.242126, 53.477538],
-        zoom: 5
+        center: [-52.419634,38.085922],
+        zoom: 2
       });
 
+      map.dragRotate.disable();
 
       map.on('load', function () {
+        // Make Writer Locations Data Available
         map.addSource('data', {
           type: 'geojson',
           data: 'data.geojson'
         });
 
+        // Add Writer Locations Data to Map
         map.addLayer({
-          "id": "points",
-          "type": "symbol",
-          "source": 'data',
-          "layout": {
-              "icon-image": "marker-15",
-              "icon-allow-overlap": true
+          id: "writer-locations-data",
+          type: "circle",
+          source: 'data',
+          paint : {
+                'circle-color' : '#c57c79',
+                'circle-radius' : 10,
+                'circle-stroke-color': '#404040',
+                'circle-stroke-width': 1
           }
         });
 
-        let writersmap = 'points'
+        // Add Writer Locations Data to Map
+        map.addLayer({
+          id: "writer-locations-data-hover",
+          type: "circle",
+          source: 'data',
+          paint : {
+                'circle-color' : '#f7d192',
+                'circle-radius' : 15,
+                'circle-stroke-color': '#404040',
+                'circle-stroke-width': 1
+          },
+          filter: ["==", "LocationName", ""]
+        });
 
-        // On click, open popup (with HTML description)
-        map.on('click', writersmap, function (e) {
-          new mapboxgl.Popup()
-            .setLngLat(e.features[0].geometry.coordinates)
-            .setHTML(e.features[0].properties.LocationName)
-            .addTo(map);
+        // Click Events
+        let writersLayer = 'writer-locations-data'
+        map.on('click', writersLayer, function (e) {
+          // Change Color of Icon
+          map.setFilter('writer-locations-data-hover', ["==", "LocationName", e.features[0].properties.LocationName]);
 
+          // Set Elements to Sidebar
           document.getElementById('place-name')
             .innerHTML = e.features[0].properties.LocationName;
-
           document.getElementById('description')
             .innerHTML = e.features[0].properties.Description;
-
           document.getElementById('place-image')
             .innerHTML = "<img src='' id= 'image' width='320'>";
-
           document.getElementById('image')
             .src = e.features[0].properties.ImageURL;
-
           document.getElementById('more-info')
             .innerHTML = 'More info...';
           document.getElementById('more-info')
             .href = e.features[0].properties.MoreInfo;
         });
 
-        // Change cursor to pointer over the writersmap layer
-        map.on('mouseenter', writersmap, function () {
+        // Change Cursor to Pointer over the Writers Location Layer
+        map.on('mouseenter', writersLayer, function () {
           map.getCanvas().style.cursor = 'pointer';
         });
-        map.on('mouseleave', writersmap, function () {
+        map.on('mouseleave', writersLayer, function () {
           map.getCanvas().style.cursor = '';
         });
       });

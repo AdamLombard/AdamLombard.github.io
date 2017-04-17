@@ -10,8 +10,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/George_Orwell#Jura_and_Nineteen_Eighty-Four",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/4/41/Barnhill_%28Cnoc_an_t-Sabhail%29_-_geograph.org.uk_-_451643.jpg",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "https://en.wikipedia.org/wiki/George_Orwell",
-        "Icon": "circle"
+        "ImageAttrURL": "https://en.wikipedia.org/wiki/George_Orwell"
       },
       "geometry": {
         "type": "Point",
@@ -30,8 +29,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Dylan_Thomas_Boathouse\n",
         "ImageURL": "http://www.dylanthomasboathouse.com/media/552/writingshed-ext.jpg",
         "ImageAttr": "DylanThomasBoathouse.com",
-        "ImageAttrURL": "http://www.dylanthomasboathouse.com/",
-        "Icon": "circle"
+        "ImageAttrURL": "http://www.dylanthomasboathouse.com/"
       },
       "geometry": {
         "type": "Point",
@@ -50,8 +48,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Monk%27s_House",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Virginia_Woolf_%282%29.jpg/1280px-Virginia_Woolf_%282%29.jpg",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "https://en.wikipedia.org/wiki/Monk%27s_House",
-        "Icon": "circle"
+        "ImageAttrURL": "https://en.wikipedia.org/wiki/Monk%27s_House"
       },
       "geometry": {
         "type": "Point",
@@ -70,14 +67,51 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Bront%C3%AB_Parsonage_Museum\n",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bronte_Parsonage_Museum.JPG/800px-Bronte_Parsonage_Museum.JPG",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "https://en.wikipedia.org/wiki/Bront%C3%AB_Parsonage_Museum",
-        "Icon": "circle"
+        "ImageAttrURL": "https://en.wikipedia.org/wiki/Bront%C3%AB_Parsonage_Museum"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -1.957412,
           53.831189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "The Mount",
+        "Writer": "Edith Wharton",
+        "Description": "Edith Wharton purchased 113 acres in Lenox Massachusetts in 1901. Here she applied her considerable skills as a designer of homes and gardens to create <i>The Mount</i>. Though she herself proudly wrote of the place that \"... I'm a better landscape gardener than novelist...\", she would also write some of her most famous novels here, including <i>The House of Mirth</i> and <i>Ethan Frome</i>.",
+        "MoreInfo": "http://www.edithwharton.org/",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Mount_from_the_Walled_Garden_by_David_Dashiell.jpg",
+        "ImageAttr": "Wikipedia",
+        "ImageAttrURL": "https://en.wikipedia.org/wiki/The_Mount_(Lenox,_Massachusetts)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.282948,
+          42.33556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "Orchard House",
+        "Writer": "Louisa May Alcott",
+        "Description": "Louisa May Alcott's father called Orchard House \"... a family mansion to take pride in, rescued as it is from deformity and disgrace.\" Over the nearly twenty years the Alcott family lived here, he made many improvements to the home and grounds, including moving a smaller home on the property to attach it to the rear of the main house and maintaining the orchard and gardens to feed his vegetarian family. Louisa would write <i>Little Women</i> here in 1868, sitting at a shelf desk her father had built in her room. The book&mdash;written at the specific request of a Boston Publisher&mdash;was set in a fictionalized version of Orchard House.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Orchard_House",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Orchard_House_from_Little_Women.jpeg/1280px-Orchard_House_from_Little_Women.jpeg",
+        "ImageAttr": "Wikipedia",
+        "ImageAttrURL": "https://en.wikipedia.org/wiki/Orchard_House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.335063,
+          42.459083
         ]
       }
     }
