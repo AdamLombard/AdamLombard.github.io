@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Mapbox -->
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css' rel='stylesheet' />
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Merriweather:300" rel="stylesheet">
@@ -28,7 +28,7 @@
       #sidebar-heading {
         text-align: center;
         font-family: 'Cutive Mono', monospace;
-        color: #AEC0C2;
+        color: #aec0c2;
       }
       #sidebar {
         position: absolute;
@@ -36,17 +36,22 @@
         bottom: 0;
         width: 340px;
         background: #404040;
-        box-shadow: 5px 0px 5px #404040;
+        /*box-shadow: 5px 0px 5px #404040;*/
         font-family: 'Merriweather', serif;
-        color: #F6F6F4;
-        
+        color: #f6f6f4;
+        opacity: 0.99;
       }
       #place-name {
         text-align: center;
-        color: #F7D192;
+        color: #f7d192;
       }
       #place-description {
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #image {
+        padding-top: 20px;
+        padding-left: 10px;
       }
       .separator, .separator-short {
         height: 1px;
@@ -56,7 +61,7 @@
         margin-right: auto;
       }
       .separator-short {
-        width: 120px;
+        width: 120;
       }
 
       .mapboxgl-popup {
@@ -69,7 +74,7 @@
       }
 
       a:hover {
-        color: #C57C79;
+        color: #c57c79;
       }
     </style>
   </head>
@@ -94,6 +99,8 @@
 
       <div class='separator-short'></div>
 
+      <div id='place-image'></div>
+
       <div id='place-description'>
         <p id='description'></p>
         <p style="font-size: 80%"><a href='' id='more-info'></a></p>
@@ -106,26 +113,48 @@
 
       let map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/adamlombard/cj1cizgyk00262sphniw1ubhr',
+        style: 'mapbox://styles/adamlombard/cj1kdjijn00132smzsp6bkwpg',
         center: [-2.242126, 53.477538],
         zoom: 5
       });
 
-      let writersmap = 'writersmap'
 
       map.on('load', function () {
+        map.addSource('data', {
+          type: 'geojson',
+          data: 'data.geojson'
+        });
+
+        map.addLayer({
+          "id": "points",
+          "type": "symbol",
+          "source": 'data',
+          "layout": {
+              "icon-image": "marker-15",
+              "icon-allow-overlap": true
+          }
+        });
+
+        let writersmap = 'points'
+
         // On click, open popup (with HTML description)
         map.on('click', writersmap, function (e) {
           new mapboxgl.Popup()
             .setLngLat(e.features[0].geometry.coordinates)
-            .setHTML(e.features[0].properties.Image)
+            .setHTML(e.features[0].properties.LocationName)
             .addTo(map);
 
           document.getElementById('place-name')
-            .innerHTML = e.features[0].properties.Name;
+            .innerHTML = e.features[0].properties.LocationName;
 
           document.getElementById('description')
             .innerHTML = e.features[0].properties.Description;
+
+          document.getElementById('place-image')
+            .innerHTML = "<img src='' id= 'image' width='320'>";
+
+          document.getElementById('image')
+            .src = e.features[0].properties.ImageURL;
 
           document.getElementById('more-info')
             .innerHTML = 'More info...';

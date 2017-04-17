@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "Barnhill Farmhouse",
+        "Writer": "George Orwell",
+        "Description": "George Orwell&mdash;stricken with tuberculosis and mourning the recent death of a sister&mdash;first moved to this remote, abandoned farmhouse on the Scottish island of Jura in 1946. Here he would concentrate on finishing <i>1984</i>, his last novel.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/George_Orwell#Jura_and_Nineteen_Eighty-Four",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/4/41/Barnhill_%28Cnoc_an_t-Sabhail%29_-_geograph.org.uk_-_451643.jpg",
+        "ImageAttr": "Wikipedia",
+        "ImageAttrURL": "https://en.wikipedia.org/wiki/George_Orwell",
+        "Icon": "circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.692794,
+          56.110807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "The Boathouse",
+        "Writer": "Dylan Thomas",
+        "Description": "Dylan Thomas spent the last four years of his life here, writing in a small shed above the main house, where he could observe the life-and-death cycles of the beautiful Taf estuary through his windows. He wrote many poems in this shed, including <i>Over Sir John's Hill</i> and <i>Do Not Go Gentle</i>.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Dylan_Thomas_Boathouse\n",
+        "ImageURL": "http://www.dylanthomasboathouse.com/media/552/writingshed-ext.jpg",
+        "ImageAttr": "DylanThomasBoathouse.com",
+        "ImageAttrURL": "http://www.dylanthomasboathouse.com/",
+        "Icon": "circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.456142,
+          51.772209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "Monk's House",
+        "Writer": "Viginia Woolf",
+        "Description": "Virginia Woolf and her husband bought a primitive cottage here in 1919. They would spend several years improving the property and expanding the surrounding gardens. Over time, Monk's House became an important outpost of the Bloomsbury Group, with visitors including T. S. Eliot and E. M. Forster. Virginia wrote <i>Mrs. Dalloway</i>, <i>To The Lighthouse</i>, and many other novels here, working in a small lodge in the garden. She would tragically take her own life in March of 1941, drowning herself in the nearby River Ouse.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Monk%27s_House",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Virginia_Woolf_%282%29.jpg/1280px-Virginia_Woolf_%282%29.jpg",
+        "ImageAttr": "Wikipedia",
+        "ImageAttrURL": "https://en.wikipedia.org/wiki/Monk%27s_House",
+        "Icon": "circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.016566,
+          50.838678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "The Parsonage",
+        "Writer": "Bronte Sisters",
+        "Description": "Charlotte, Emily, and Anne Bront&euml;&mdash;aged 4 years, 2 years, and 3 months&mdash;moved here with their family in April of 1820. The Parsonage would be the family home for the rest of their lives. <i>Jane Eyre, Wuthering Heights,</i> and <i>Agnes Grey</i> were all written here, at a small table in the dining room. The sisters would walk around this table in the evenings, reading to one another and discussing their writing. <a href=\"https://www.bronte.org.uk/museum-and-library/inside-the-parsonage/dining-room\">\"After the deaths of Emily and Anne, Charlotte walked in solitude, unable to sleep without this nightly ritual.\"</a>",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Bront%C3%AB_Parsonage_Museum\n",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bronte_Parsonage_Museum.JPG/800px-Bronte_Parsonage_Museum.JPG",
+        "ImageAttr": "Wikipedia",
+        "ImageAttrURL": "https://en.wikipedia.org/wiki/Bront%C3%AB_Parsonage_Museum",
+        "Icon": "circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.957412,
+          53.831189
+        ]
+      }
+    }
+  ]
+}
