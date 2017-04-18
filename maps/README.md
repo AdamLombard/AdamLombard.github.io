@@ -4,6 +4,6 @@ to do
 ---
 
 - [x] embed links to originals in photos
-- [ ] add photo attributions
+- [x] add photo attributions
 - [ ] add zoom/bubble effect on mouse hover to points on map
-- [ ] fix top padding on descriptions
+- [x] fix top padding on descriptions

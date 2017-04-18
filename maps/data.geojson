@@ -28,7 +28,7 @@
         "Description": "Dylan Thomas spent the last four years of his life here, writing in a small shed above the main house, where he could observe the life-and-death cycles of the beautiful Taf estuary through his windows. He wrote many poems in this shed, including <i>Over Sir John's Hill</i> and <i>Do Not Go Gentle</i>.",
         "MoreInfo": "https://en.wikipedia.org/wiki/Dylan_Thomas_Boathouse\n",
         "ImageURL": "http://www.dylanthomasboathouse.com/media/552/writingshed-ext.jpg",
-        "ImageAttr": "DylanThomasBoathouse.com",
+        "ImageAttr": "Wikipedia",
         "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3AWales_Laugharne_Dylans_writing_hut.jpg\">Wikimedia Commons</a>"
       },
       "geometry": {
@@ -131,6 +131,25 @@
         "coordinates": [
           -72.514444,
           42.376134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "Yasnaya Polyana",
+        "Writer": "Leo Tolstoy",
+        "Description": "Leo Tolstoy was born at Yasnaya Polyana&mdash;\"Bright Glade\" in Russian&mdash;in 1828. He was raised on the 4,000 acre estate by relatives after the death of his parents. He would spend his entire life here, writing <i>War and Peace</i> and <i>Anna Karenina</i> by hand in his study. At night, his wife Sophia made clean copies of each days work, copying <i>War and Peace</i> a total of seven times. Tolstoy is buried in a park here, in a simple unadorned grave.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Yasnaya_Polyana",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Yasnaya_Polyana_1.JPG",
+        "ImageAttr": "Wikipedia",
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3AYasnaya_Polyana_1.JPG\">Wikimedia Commons</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.523182,
+          54.069501
         ]
       }
     }
