@@ -10,7 +10,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/George_Orwell#Jura_and_Nineteen_Eighty-Four",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/4/41/Barnhill_%28Cnoc_an_t-Sabhail%29_-_geograph.org.uk_-_451643.jpg",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "https://en.wikipedia.org/wiki/George_Orwell"
+        "ImageAttrURL": "Ken Craig [<a href=\"http://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3ABarnhill_(Cnoc_an_t-Sabhail)_-_geograph.org.uk_-_451643.jpg\">via Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -29,7 +29,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Dylan_Thomas_Boathouse\n",
         "ImageURL": "http://www.dylanthomasboathouse.com/media/552/writingshed-ext.jpg",
         "ImageAttr": "DylanThomasBoathouse.com",
-        "ImageAttrURL": "http://www.dylanthomasboathouse.com/"
+        "ImageAttrURL": "Tony in Devon (Own work) [<a href=\"http://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3AWales_Laugharne_Dylans_writing_hut.jpg\">via Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -48,7 +48,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Monk%27s_House",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Virginia_Woolf_%282%29.jpg/1280px-Virginia_Woolf_%282%29.jpg",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "https://en.wikipedia.org/wiki/Monk%27s_House"
+        "ImageAttrURL": "Oliver Mallinson Lewis from Oxford, United Kingdom (Picture 009) [<a href=\"http://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3AVirginia_Woolf_(2).jpg\">via Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -67,7 +67,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Bront%C3%AB_Parsonage_Museum\n",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bronte_Parsonage_Museum.JPG/800px-Bronte_Parsonage_Museum.JPG",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "https://en.wikipedia.org/wiki/Bront%C3%AB_Parsonage_Museum"
+        "ImageAttrURL": "SpaceMonkey at en.wikipedia (Transferred from en.wikipedia) [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3ABronte_Parsonage_Museum.JPG\">via Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -86,7 +86,7 @@
         "MoreInfo": "http://www.edithwharton.org/",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Mount_from_the_Walled_Garden_by_David_Dashiell.jpg",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "https://en.wikipedia.org/wiki/The_Mount_(Lenox,_Massachusetts)"
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Mount_from_the_Walled_Garden_by_David_Dashiell.jpg\">Wikipedia</a>"
       },
       "geometry": {
         "type": "Point",
@@ -105,7 +105,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Orchard_House",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Orchard_House_from_Little_Women.jpeg/1280px-Orchard_House_from_Little_Women.jpeg",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "https://en.wikipedia.org/wiki/Orchard_House"
+        "ImageAttrURL": "victorgrigas (Own work) [<a href=\"http://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3AOrchard_House_from_Little_Women.jpeg\">via Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -124,7 +124,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Emily_Dickinson_Museum",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Emily_Dickinson_Museum%2C_Amherst%2C_MA_-_front.JPG/1280px-Emily_Dickinson_Museum%2C_Amherst%2C_MA_-_front.JPG",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "https://en.wikipedia.org/wiki/Emily_Dickinson_Museum"
+        "ImageAttrURL": "Daderot (Own work) [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3AEmily_Dickinson_Museum%2C_Amherst%2C_MA_-_front.JPG\">via Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
