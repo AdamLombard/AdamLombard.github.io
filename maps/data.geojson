@@ -10,7 +10,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/George_Orwell#Jura_and_Nineteen_Eighty-Four",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/4/41/Barnhill_%28Cnoc_an_t-Sabhail%29_-_geograph.org.uk_-_451643.jpg",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "Ken Craig [<a href=\"http://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3ABarnhill_(Cnoc_an_t-Sabhail)_-_geograph.org.uk_-_451643.jpg\">via Wikimedia Commons</a>"
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3ABarnhill_(Cnoc_an_t-Sabhail)_-_geograph.org.uk_-_451643.jpg\">Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -29,7 +29,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Dylan_Thomas_Boathouse\n",
         "ImageURL": "http://www.dylanthomasboathouse.com/media/552/writingshed-ext.jpg",
         "ImageAttr": "DylanThomasBoathouse.com",
-        "ImageAttrURL": "Tony in Devon (Own work) [<a href=\"http://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3AWales_Laugharne_Dylans_writing_hut.jpg\">via Wikimedia Commons</a>"
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3AWales_Laugharne_Dylans_writing_hut.jpg\">Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -48,7 +48,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Monk%27s_House",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Virginia_Woolf_%282%29.jpg/1280px-Virginia_Woolf_%282%29.jpg",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "Oliver Mallinson Lewis from Oxford, United Kingdom (Picture 009) [<a href=\"http://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3AVirginia_Woolf_(2).jpg\">via Wikimedia Commons</a>"
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3AVirginia_Woolf_(2).jpg\">Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -67,7 +67,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Bront%C3%AB_Parsonage_Museum\n",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bronte_Parsonage_Museum.JPG/800px-Bronte_Parsonage_Museum.JPG",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "SpaceMonkey at en.wikipedia (Transferred from en.wikipedia) [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3ABronte_Parsonage_Museum.JPG\">via Wikimedia Commons</a>"
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3ABronte_Parsonage_Museum.JPG\">Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -105,7 +105,7 @@
         "MoreInfo": "https://en.wikipedia.org/wiki/Orchard_House",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Orchard_House_from_Little_Women.jpeg/1280px-Orchard_House_from_Little_Women.jpeg",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "victorgrigas (Own work) [<a href=\"http://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3AOrchard_House_from_Little_Women.jpeg\">via Wikimedia Commons</a>"
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3AOrchard_House_from_Little_Women.jpeg\">Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
@@ -118,13 +118,13 @@
     {
       "type": "Feature",
       "properties": {
-        "LocationName": "The Emily Dickinson House",
+        "LocationName": "The Dickinson Homestead",
         "Writer": "Emily Dickinson",
         "Description": "Emily Dickinson was born in this house in 1830 and lived their for most of her life. She grew increasingly secluded in her twenties, sometimes only speaking with visitors to her home from behind closed doors, and in her seclusion she began the curation of a secret work&mdash;the editing and organizing of nearly eight hundred poems into forty bound notebooks. After Emily's death in 1886, her sister Lavinia kept a sacred promise and burned most of Emily's private letters. No such promise had been made regarding the notebooks and loose papers Lavinia found in a chest, however&mdash;a literary treasure trove of nearly one thousand eight hundred poems.",
         "MoreInfo": "https://en.wikipedia.org/wiki/Emily_Dickinson_Museum",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Emily_Dickinson_Museum%2C_Amherst%2C_MA_-_front.JPG/1280px-Emily_Dickinson_Museum%2C_Amherst%2C_MA_-_front.JPG",
         "ImageAttr": "Wikipedia",
-        "ImageAttrURL": "Daderot (Own work) [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3AEmily_Dickinson_Museum%2C_Amherst%2C_MA_-_front.JPG\">via Wikimedia Commons</a>"
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3AEmily_Dickinson_Museum%2C_Amherst%2C_MA_-_front.JPG\">Wikimedia Commons</a>"
       },
       "geometry": {
         "type": "Point",
