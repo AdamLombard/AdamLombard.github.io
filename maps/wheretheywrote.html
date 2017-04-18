@@ -165,9 +165,11 @@
           document.getElementById('description')
             .innerHTML = e.features[0].properties.Description;
           document.getElementById('place-image')
-            .innerHTML = "<img src='' id= 'image' width='320'>";
+            .innerHTML = "<a href='' id='image-link'><img src='' id= 'image' width='320'></a>";
           document.getElementById('image')
             .src = e.features[0].properties.ImageURL;
+          document.getElementById('image-link')
+            .href = e.features[0].properties.ImageURL;
           document.getElementById('more-info')
             .innerHTML = 'More info...';
           document.getElementById('more-info')
