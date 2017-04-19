@@ -39,15 +39,20 @@
         font-family: 'Merriweather', serif;
         color: #f6f6f4;
         opacity: 0.99;
+        display: flex;
+        flex-direction: column;
       }
       #place-name {
         text-align: center;
         color: #f7d192;
       }
       #place-description {
+        /*background: pink;*/
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
+        overflow: scroll;
+        flex-grow: 1;
       }
       #image {
         padding-top: 20px;
@@ -106,8 +111,7 @@
         <p><a href='' id='more-info'></a></p>
         <p><div id='photo-attribution' style="font-size: 60%"></div></p>
       </div>
-
-
+      <div style='height: 70px'></div>
     </div>
     <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiYWRhbWxvbWJhcmQiLCJhIjoiY2l4eGxkZjAzMDAzMDMzcDllcjJ0YWdzNCJ9.afe8-vnKF9aasAtpHwpEjw';
