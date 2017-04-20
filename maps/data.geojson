@@ -152,6 +152,25 @@
           54.069501
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "Chawton Cottage",
+        "Writer": "Jane Austen",
+        "Description": "In 1809, Edward Austen Knight gifted this cottage to his widowed mother and two sisters as a permanent residence. Jane Austen would spend the last eight years of her life here. She likely worked on all six of her published novels in this home, definitely writing <i>Mansfield Park</i>, <i>Emma</i>, and <i>Persuasion</i> here, and possibly also revising the previously written <i>Sense and Sensibility</i>, <i>Pride and Prejudice</i>, and <i>Northanger Abbey</i>.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Jane_Austen%27s_House_Museum",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Jane_Austen_%28House_in_Chawton%29_2.jpg",
+        "ImageAttr": "Wikipedia",
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3AJane_Austen_(House_in_Chawton)_2.jpg\">Wikimedia Commons</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.989003,
+          51.133087
+        ]
+      }
     }
   ]
 }
