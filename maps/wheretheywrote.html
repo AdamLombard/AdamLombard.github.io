@@ -145,9 +145,23 @@
           }
         });
 
-        // Add Writer Locations Data to Map
+        // Add Hover Effect Layer
         map.addLayer({
           id: "writer-locations-data-hover",
+          type: "circle",
+          source: 'data',
+          paint : {
+                'circle-color' : '#c57c79',
+                'circle-radius' : 12,
+                'circle-stroke-color': '#404040',
+                'circle-stroke-width': 1
+          },
+          filter: ["==", "LocationName", ""]
+        });
+
+        // Add Click Effect Layer
+        map.addLayer({
+          id: "writer-locations-data-click",
           type: "circle",
           source: 'data',
           paint : {
@@ -163,7 +177,7 @@
         let writersLayer = 'writer-locations-data'
         map.on('click', writersLayer, function (e) {
           // Change Color of Icon
-          map.setFilter('writer-locations-data-hover', ["==", "LocationName", e.features[0].properties.LocationName]);
+          map.setFilter('writer-locations-data-click', ["==", "LocationName", e.features[0].properties.LocationName]);
 
           // Set Elements to Sidebar
           document.getElementById('place-name')
@@ -182,13 +196,15 @@
             .href = e.features[0].properties.MoreInfo;
           document.getElementById('photo-attribution')
             .innerHTML = 'Photo : <span id="photo-attribution-details"></span>';
-            document.getElementById('photo-attribution-details')
+          document.getElementById('photo-attribution-details')
             .innerHTML = e.features[0].properties.ImageAttrURL;
         });
 
         // Change Cursor to Pointer over the Writers Location Layer
-        map.on('mouseenter', writersLayer, function () {
+        map.on('mouseenter', writersLayer, function (e) {
           map.getCanvas().style.cursor = 'pointer';
+          // Change Color of Icon
+          map.setFilter('writer-locations-data-hover', ["==", "LocationName", e.features[0].properties.LocationName]);
         });
         map.on('mouseleave', writersLayer, function () {
           map.getCanvas().style.cursor = '';
