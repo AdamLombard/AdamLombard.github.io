@@ -25,7 +25,7 @@
       "properties": {
         "LocationName": "The Boathouse",
         "Writer": "Dylan Thomas",
-        "Description": "Dylan Thomas spent the last four years of his life here, writing in a small shed above the main house, where he could observe the life-and-death cycles of the beautiful Taf estuary through his windows. He wrote many poems in this shed, including <i>Over Sir John's Hill</i> and <i>Do Not Go Gentle</i>.",
+        "Description": "Dylan Thomas spent the last four years of his life in a home overlooking the river Taf, writing in a small shed above the main house. Here he could observe the life-and-death cycles of the beautiful estuary below. He wrote many poems in this shed, including <i>Over Sir John's Hill</i>&mdash;directly inspired by the view from his window&mdash;and <i>Do Not Go Gentle</i>.",
         "MoreInfo": "https://en.wikipedia.org/wiki/Dylan_Thomas_Boathouse\n",
         "ImageURL": "http://www.dylanthomasboathouse.com/media/552/writingshed-ext.jpg",
         "ImageAttr": "Wikipedia",
@@ -44,7 +44,7 @@
       "properties": {
         "LocationName": "Monk's House",
         "Writer": "Viginia Woolf",
-        "Description": "Virginia Woolf and her husband bought a primitive cottage here in 1919. They would spend several years improving the property and expanding the surrounding gardens. Over time, Monk's House became an important outpost of the Bloomsbury Group, with visitors including T. S. Eliot and E. M. Forster. Virginia wrote <i>Mrs. Dalloway</i>, <i>To The Lighthouse</i>, and many other novels here, working in a small lodge in the garden. She would tragically take her own life in March of 1941, drowning herself in the nearby River Ouse.",
+        "Description": "In 1919, Virginia Woolf and her husband bought a primitive cottage in East Sussex. They would spend several years improving the property and expanding the surrounding gardens. During this time Monk's House played host to several important visitors related to the Bloomsbury Group, including T. S. Eliot and E. M. Forster. Woolf wrote <i>Mrs. Dalloway</i>, <i>To The Lighthouse</i>, and many other novels here, working in a small lodge in the garden. She would tragically take her own life in March of 1941, drowning herself in the nearby River Ouse.",
         "MoreInfo": "https://en.wikipedia.org/wiki/Monk%27s_House",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Virginia_Woolf_%282%29.jpg/1280px-Virginia_Woolf_%282%29.jpg",
         "ImageAttr": "Wikipedia",
@@ -82,8 +82,8 @@
       "properties": {
         "LocationName": "The Mount",
         "Writer": "Edith Wharton",
-        "Description": "Edith Wharton purchased 113 acres in Lenox Massachusetts in 1901. Here she applied her considerable skills as a designer of homes and gardens to create <i>The Mount</i>. Though she herself proudly wrote of the place that \"... I'm a better landscape gardener than novelist...\", she would also write some of her most famous novels here, including <i>The House of Mirth</i> and <i>Ethan Frome</i>.",
-        "MoreInfo": "http://www.edithwharton.org/",
+        "Description": "In 1901, Edith Wharton&mdash;already an established expert on interior decorating&mdash;purchased 113 acres of land in Lenox Massachusetts for she and her husband. Here she applied her considerable skills as a designer of homes and gardens to create The Mount, her \"first real home\". Though she herself proudly wrote of the place that \"I'm a better landscape gardener than novelist\", she would write some of her most famous fiction here, including <i>The House of Mirth</i> and <i>Ethan Frome</i>.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/The_Mount_(Lenox,_Massachusetts)",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Mount_from_the_Walled_Garden_by_David_Dashiell.jpg",
         "ImageAttr": "Wikipedia",
         "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Mount_from_the_Walled_Garden_by_David_Dashiell.jpg\">Wikipedia</a>"
@@ -101,7 +101,7 @@
       "properties": {
         "LocationName": "Orchard House",
         "Writer": "Louisa May Alcott",
-        "Description": "Louisa May Alcott's father called Orchard House \"... a family mansion to take pride in, rescued as it is from deformity and disgrace.\" Over the nearly twenty years the Alcott family lived here, he made many improvements to the home and grounds, including moving a smaller home on the property to attach it to the rear of the main house and maintaining the orchard and gardens to feed his vegetarian family. Louisa would write <i>Little Women</i> here in 1868, sitting at a shelf desk her father had built in her room. The book&mdash;written at the specific request of a Boston Publisher&mdash;was set in a fictionalized version of Orchard House.",
+        "Description": "Louisa May Alcott's father called Orchard House \"a family mansion to take pride in, rescued as it is from deformity and disgrace.\" Over the nearly twenty years the Alcott family lived here, he made many improvements to the home and grounds, including maintaining the orchard and gardens to feed his vegetarian family. Louisa would write <i>Little Women</i> here in 1868, sitting at a shelf desk her father had built in her room. The book&mdash;written at the specific request of a Boston Publisher&mdash;was set in a fictionalized version of Orchard House itself.",
         "MoreInfo": "https://en.wikipedia.org/wiki/Orchard_House",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Orchard_House_from_Little_Women.jpeg/1280px-Orchard_House_from_Little_Women.jpeg",
         "ImageAttr": "Wikipedia",
@@ -120,7 +120,7 @@
       "properties": {
         "LocationName": "The Dickinson Homestead",
         "Writer": "Emily Dickinson",
-        "Description": "Emily Dickinson was born in this house in 1830 and lived their for most of her life. She grew increasingly secluded in her twenties, sometimes only speaking with visitors to her home from behind closed doors, and in her seclusion she began the curation of a secret work&mdash;the editing and organizing of nearly eight hundred poems into forty bound notebooks. After Emily's death in 1886, her sister Lavinia kept a sacred promise and burned most of Emily's private letters. No such promise had been made regarding the notebooks and loose papers Lavinia found in a chest, however&mdash;a literary treasure trove of nearly one thousand eight hundred poems.",
+        "Description": "Emily Dickinson was born in this house in 1830 and lived their for most of her life. She grew increasingly secluded in her twenties, sometimes only speaking with visitors to her home from behind closed doors, and in her seclusion she began the curation of a secret work&mdash;the editing and organizing of nearly eight hundred poems into forty bound notebooks. After Emily's death in 1886, her sister Lavinia kept a sacred promise and burned most of Emily's private letters. However, no such promise had been made regarding the notebooks and many loose papers Lavinia found in a locked chest in Emily's room&mdash;a literary treasure trove of nearly one thousand eight hundred poems.",
         "MoreInfo": "https://en.wikipedia.org/wiki/Emily_Dickinson_Museum",
         "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Emily_Dickinson_Museum%2C_Amherst%2C_MA_-_front.JPG/1280px-Emily_Dickinson_Museum%2C_Amherst%2C_MA_-_front.JPG",
         "ImageAttr": "Wikipedia",
