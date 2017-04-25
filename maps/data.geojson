@@ -190,6 +190,25 @@
           53.490494
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "Hotel Ambos Mundos",
+        "Writer": "Ernest Hemingway",
+        "Description": "Room No. 511 at the Hotel Ambos Mundos was the home of Ernest Hemingway for seven years&mdash;1932 to 1939. He rented the room for $1.50 per night (or $1.75 for double occupancy). It was here he wrote the first chapter of <i>For Whom the Bell Tolls</i>, on March 1, 1939. The room is still furnished much as it was during his stay, including a writing desk that can be raised to accomodate Hemingway's habit of writing while standing.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Hotel_Ambos_Mundos_(Havana)",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/8/84/Ambos-mundos.jpg",
+        "ImageAttr": "Wikipedia",
+        "ImageAttrURL": "<a href=\"https://commons.wikimedia.org/wiki/File%3AAmbos-mundos.jpg\">Wikimedia Commons</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.350543,
+          23.139432
+        ]
+      }
     }
   ]
 }
