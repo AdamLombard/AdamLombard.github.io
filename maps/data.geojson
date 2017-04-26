@@ -209,6 +209,25 @@
           23.139432
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "The Eudora Welty House",
+        "Writer": "Eudora Welty",
+        "Description": "Eudora Welty's parents built this house in Jackson, Mississippi in 1925, when Eudora was 16. She would live in this home until her death in 2001, at age 92. Here, in an upstairs bedroom, she wrote many novels and short stories, including the Pulitzer prize-winning <i>The Optimist's Daughter</i>. She also spent much time improving the beautiful gardens her mother had started, with flowers specificially chosen to ensure that something was always blooming. Her short story <i>Flowers for Marjorie</i> features some of the garden's residents.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Eudora_Welty_House",
+        "ImageURL": "https://eudorawelty.org/wp-content/uploads/2012/08/1-Welty-house-Karen-2007.jpg",
+        "ImageAttr": "eudorawelty.org",
+        "ImageAttrURL": "<a href=\"https://eudorawelty.org/the-house/\">EudoraWelty.org</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.170247,
+          32.317027
+        ]
+      }
     }
   ]
 }
