@@ -203,9 +203,11 @@
           document.getElementById('more-info')
             .href = e.features[0].properties.MoreInfo;
           document.getElementById('photo-attribution')
-            .innerHTML = 'Photo : <span id="photo-attribution-details"></span>';
-          document.getElementById('photo-attribution-details')
-            .innerHTML = e.features[0].properties.ImageAttrURL;
+            .innerHTML = 'Photo : <a id="photo-attribution-link"></a>';
+          document.getElementById('photo-attribution-link')
+            .innerHTML = e.features[0].properties.ImageAttr;
+          document.getElementById('photo-attribution-link')
+            .href = e.features[0].properties.ImageAttrURL;
         });
 
         // Change Cursor to Pointer over the Writers Location Layer
