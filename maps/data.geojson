@@ -4,6 +4,63 @@
     {
       "type": "Feature",
       "properties": {
+        "LocationName": "Villa Diodati",
+        "Writer": "Mary Shelley",
+        "Description": "<p>Oh, to be a Swiss fly on the walls of the Villa Diodati in June of 1816!</p><p>The villa was rented that summer by a young Lord Byron and his dashing personal physician, John William Polidori. Byron had fled a trio of scandals in England&mdash;mounting debts, an embarassing separation from his wife (who called him \"dearest Duck\" but also thought he was insane), and... hmm... it seems like there was one more... Oh, yes. He maybe had a baby with his half-sister.</p><p>While in Lake Geneva, Byron met young Mary Godwin and her lover, the poet Percy Bysshe Shelley. They rented homes near one another on the lakeshore (Byron renting the Villa Diodati), and were eventually joined by Mary's stepsister, Claire Clairmont (with whom Byron had had an affair in London&mdash;I know, small world...). They all proceeded to enjoy each other's company while bemoaning the terrible weather.</p><p>In June, the weather was so abysmal they all stayed in the Villa Diodati together, reading from a French anthology of German ghost stories called <i>Fantasmagoriana</i>. Byron suggested they each devise thrilling tales of their own to entertain one another. John Polidori drafted the first version of <i>The Vampyre</i> as a result. It would become the first work of modern vampire fiction. The future Mary Shelley, however, was frustrated to have no ideas at all, until one night she couldn't sleep and had a sort of terrible \"waking dream\" that would come to define modern fantastic fiction. She enthralled her captive audience with this dream&mdash;a creepy little tale she called <i>Frankenstein</i>.</p>",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Villa_Diodati",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Villa_diodati_2008.07.27_rg_5.JPG",
+        "ImageAttr": "Wikimedia Commons",
+        "ImageAttrURL": "https://commons.wikimedia.org/wiki/File%3AVilla_diodati_2008.07.27_rg_5.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.183338,
+          46.220219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "Keats House",
+        "Writer": "John Keats",
+        "Description": "The poet John Keats lived here with a friend from December 1818 to September 1820&mdash;some of his most productive years, composing five of his six great odes here. According to his housemate at the time, he wrote <i>Ode to a Nightingale</i> sitting under a plum tree in the garden. During this time Keats became engaged to his neighbor, Fanny Brawne, but they would never marry. He left England in September of 1820, seeking a warmer climate to battle tuberculosis. He would pass away in Rome a few months later.",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Keats_House",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/8/85/Keats_House.jpg",
+        "ImageAttr": "Wikimedia Commons",
+        "ImageAttrURL": "https://commons.wikimedia.org/wiki/File%3AKeats_House.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.168073,
+          51.555464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LocationName": "Tell Arpachiyah",
+        "Writer": "Agatha Christie",
+        "Description": "Agatha Christie started writing Murder on the Orient Express here.",
+        "MoreInfo": "http://www.poirot.us/dedicate.php",
+        "ImageURL": "http://ancientneareast.tripod.com/IMAGES/ArpachiyahAerial.jpg",
+        "ImageAttr": "AncientNearEast.tripod.com",
+        "ImageAttrURL": "http://ancientneareast.tripod.com/Arpachiyah.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.95,
+          36.483333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "LocationName": "Barnhill Farmhouse",
         "Writer": "George Orwell",
         "Description": "George Orwell&mdash;stricken with tuberculosis and mourning the recent death of a sister&mdash;first moved to this remote, abandoned farmhouse on the Scottish island of Jura in 1946. Here he would concentrate on finishing <i>1984</i>, his last novel.",
