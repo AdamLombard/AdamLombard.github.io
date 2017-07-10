@@ -94,7 +94,9 @@
       <div id='sidebar'>
         <div>
           <h1 id='sidebar-heading'>
-           <a href="wheretheywrote.html" style="color: #aec0c2"><div> Where They Wrote</div></a>
+            <a href="wheretheywrote.html" style="color: #aec0c2">
+              <div>Where They Wrote</div>
+            </a>
           </h1>
         </div>
         
@@ -121,6 +123,7 @@
         <div style='height: 70px'></div>
       </div>
     </div>
+
     <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiYWRhbWxvbWJhcmQiLCJhIjoiY2l4eGxkZjAzMDAzMDMzcDllcjJ0YWdzNCJ9.afe8-vnKF9aasAtpHwpEjw';
 
@@ -182,7 +185,7 @@
         });
 
         // Click Events
-        let writersLayer = 'writer-locations-data'
+        let writersLayer = 'writer-locations-data';
         map.on('click', writersLayer, function (e) {
           // Change Color of Icon
           map.setFilter('writer-locations-data-click', ["==", "LocationName", e.features[0].properties.LocationName]);
