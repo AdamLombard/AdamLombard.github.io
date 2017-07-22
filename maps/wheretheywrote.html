@@ -131,6 +131,7 @@
       let map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/adamlombard/cj1kdjijn00132smzsp6bkwpg',
+        style: 'mapbox://styles/adamlombard/cj5ekxwr71hj12snwnrd2t3i7',
         center: [-41.9723537,35.1341614],
         zoom: 2
       });
@@ -216,10 +217,10 @@
         // Change Cursor to Pointer over the Writers Location Layer
         map.on('mouseenter', writersLayer, function (e) {
           map.getCanvas().style.cursor = 'pointer';
-          // Change Color of Icon
+          // Change Style of Icon
           map.setFilter('writer-locations-data-hover', ["==", "LocationName", e.features[0].properties.LocationName]);
         });
-        map.on('mouseleave', writersLayer, function () {
+        map.on('mouseleave', writersLayer, function (e) {
           map.getCanvas().style.cursor = '';
         });
       });

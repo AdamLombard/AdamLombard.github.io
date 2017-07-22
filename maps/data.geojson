@@ -4,6 +4,25 @@
     {
       "type": "Feature",
       "properties": {
+        "LocationName": "Arrowhead",
+        "Writer": "Herman Melville",
+        "Description": "Herman Melville fell in love with the Berkshires of western Massachusetts as a young boy, when his mother vacationed the family there to escape a cholera outbreak in New York City. In 1850 he took his own family on a similar vacation, and ended up meeting Nathaniel Hawthorne and Oliver Wenell Holmes, Sr. while on a picnic. He also ended up purchasing this farm for $6,500 that same September&mdash;in part to be near the Hawthorne family.<p>He named the place Arrowhead, after the artifacts dug up on the property during planting season. He also finished <i>Moby-Dick</i> here, dedicating the book to his new friend Nathaniel Hawthorne.</p>",
+        "MoreInfo": "https://en.wikipedia.org/wiki/Arrowhead_(Herman_Melville_House)",
+        "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Arrowhead_%28Herman_Melville%29%2C_Pittsfield%2C_Massachusetts.JPG",
+        "ImageAttr": "Wikimedia Commons",
+        "ImageAttrURL": "https://commons.wikimedia.org/wiki/File%3AArrowhead_(Herman_Melville)%2C_Pittsfield%2C_Massachusetts.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.248816,
+          42.415407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "LocationName": "Villa Diodati",
         "Writer": "Mary Shelley",
         "Description": "<p>Oh, to be a Swiss fly on the walls of the Villa Diodati in June of 1816!</p><p>The villa was rented that summer by a young Lord Byron and his dashing personal physician, John William Polidori. Byron had fled a trio of scandals in England&mdash;mounting debts, an embarassing separation from his wife (who called him \"dearest Duck\" but also thought he was insane), and... hmm... it seems like there was one more... Oh, yes. He maybe had a baby with his half-sister.</p><p>While in Lake Geneva, Byron met young Mary Godwin and her lover, the poet Percy Bysshe Shelley. They rented homes near one another on the lakeshore (Byron renting the Villa Diodati), and were eventually joined by Mary's stepsister, Claire Clairmont (with whom Byron had had an affair in London&mdash;I know, small world...). They all proceeded to enjoy each other's company while bemoaning the terrible weather.</p><p>In June, the weather was so abysmal they all stayed in the Villa Diodati together, reading from a French anthology of German ghost stories called <i>Fantasmagoriana</i>. Byron suggested they each devise thrilling tales of their own to entertain one another. John Polidori drafted the first version of <i>The Vampyre</i> as a result. It would become the first work of modern vampire fiction. The future Mary Shelley, however, was frustrated to have no ideas at all, until one night she couldn't sleep and had a sort of terrible \"waking dream\" that would come to define modern fantastic fiction. She enthralled her captive audience with this dream&mdash;a creepy little tale she called <i>Frankenstein</i>.</p>",
@@ -44,7 +63,7 @@
       "properties": {
         "LocationName": "Tell Arpachiyah",
         "Writer": "Agatha Christie",
-        "Description": "Agatha Christie started writing Murder on the Orient Express here.",
+        "Description": "In September 1930, at the age of 39, mystery novelist Agatha Christie married 25-year-old archaeologist Sir Max Mallowan. She joined him on several of his digs&mdash;including one at this site north of Nineveh, in 1933. A enthusiastic amateur achaeologist herself, Christie assisted the professionals in their work. She also found time to write, drafting <i>Why Didn't They Ask Evans</i>, <i>Unfinished Portrait</i>, and <i>Murder on the Orient Express</i> here.",
         "MoreInfo": "http://www.poirot.us/dedicate.php",
         "ImageURL": "http://ancientneareast.tripod.com/IMAGES/ArpachiyahAerial.jpg",
         "ImageAttr": "AncientNearEast.tripod.com",
