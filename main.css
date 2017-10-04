@@ -1,0 +1,12 @@
+/* Box Model Fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Borders for Testing */
+* {
+  border: solid 1px pink;
+}
