@@ -8,5 +8,22 @@ html {
 
 /* Borders for Testing */
 * {
-  border: solid 1px pink;
+  /* border: solid 1px pink; */
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 4rem;
+  background: #000000;
+}
+
+main {
+  flex: 1;
+  background: #131313;
 }
