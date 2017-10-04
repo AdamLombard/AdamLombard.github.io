@@ -22,9 +22,22 @@ body {
 
 header {
   background: #000000;
+  height: 4rem;
+}
+
+#logo {
+  float: left;
+  width: 4rem;
+  height: 100%;
+  background-color: gray;
+}
+
+nav {
+  height: 100%;
 }
 
 nav ul {
+  height: 100%;
   margin: 0;
   float: right;
   color: white;
@@ -35,10 +48,13 @@ nav ul {
 
 nav li {
   float: left;
-  padding: 1rem;
+  height: 100%;
   width: 9rem;
-  text-align: center;
   font-size: 1.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav li:hover {
