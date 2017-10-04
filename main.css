@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 /* Box Model Fix */
 html {
   box-sizing: border-box;
@@ -19,20 +21,31 @@ body {
 }
 
 header {
-  height: 4rem;
   background: #000000;
+}
+
+nav ul {
+  margin: 0;
+  float: right;
+  color: white;
+  list-style-type: none;
+
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav li {
+  float: left;
+  padding: 1rem;
+  width: 9rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+nav li:hover {
+  background-color: green;
 }
 
 main {
   flex: 1;
   background: #161616;
-}
-
-nav {
-  float: right;
-  color: white;
-}
-
-ul {
-  list-style-type: none;
 }
