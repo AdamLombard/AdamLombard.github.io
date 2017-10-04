@@ -25,5 +25,14 @@ header {
 
 main {
   flex: 1;
-  background: #131313;
+  background: #161616;
+}
+
+nav {
+  float: right;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
 }
