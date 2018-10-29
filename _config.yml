@@ -1,16 +1,16 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-url:            "https://chesterhow.github.io"
+title:          Adam Lombard
+description:    "Homepage of Adam Lombard -- novelist, developer, co-author of Manly Hero"
+url:            "http://www.adamlombard.com"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Adam Lombard
+  url:          http://www.adamlombard.com
+  email:        siradamlombard@gmail.com
 
 # Build settings
 markdown:       kramdown
