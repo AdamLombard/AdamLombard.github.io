@@ -3,6 +3,8 @@ layout: post
 title: "A List of Companies that Hire Jr Devs for Remote Positions"
 ---
 
+![Man in front of sunset ](https://images.unsplash.com/photo-1492681290082-e932832941e6 "Man in front of sunset")
+
 A few weeks ago, [@isaacandsuch](https://dev.to/isaacandsuch) posted a great article about [hiring junior developers](https://dev.to/isaacandsuch/if-you-dont-hire-juniors-you-dont-deserve-seniors-48kb).
 
 The article got me thinking about how _extra_ hard it is for junior developers to find remote work. So I started a [GitHub repo](https://github.com/AdamLombard/we-hire-remote-junior-devs) listing companies that hire junior developers for remote positions.
