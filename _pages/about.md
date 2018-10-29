@@ -3,6 +3,7 @@ layout: post
 title: "About Me"
 permalink: /about/
 ---
-I'm a novelist and developer loving life in the Pacific Northwest.
 
-I write the Manly Hero series with my partner, Petra.
+I'm a writer and software developer living in the Pacific Northwest.
+
+I write the [Manly Hero](http://www.manlyhero.com) series with my partner, Petra, under the pen name [Adrastus Rood](http://www.adrastusrood.com).
