@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "A List of Companies that Hire Jr Devs for Remote Positions"
+hero_image: "https://images.unsplash.com/photo-1492681290082-e932832941e6"
+hero_image_alt_text: "hiker with arms outstretched in front of sunrise over mountains"
 ---
-
-![Man in front of sunset ](https://images.unsplash.com/photo-1492681290082-e932832941e6 "Man in front of sunset")
 
 A few weeks ago, [@isaacandsuch](https://dev.to/isaacandsuch) posted a great article about [hiring junior developers](https://dev.to/isaacandsuch/if-you-dont-hire-juniors-you-dont-deserve-seniors-48kb).
 

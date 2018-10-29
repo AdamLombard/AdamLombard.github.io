@@ -3,6 +3,10 @@ layout: default
 ---
 
 <div class="post">
+  {% if page.hero_image %}
+    <img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt_text }}">
+  {% endif %}
+
   <div class="post-info">
     {% if page.date %}
       <br>
