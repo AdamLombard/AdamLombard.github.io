@@ -2,12 +2,14 @@
   Syntax Highlighting
 */
 
+.highlighter-rouge {
+  background: $blue-black;
+  padding: 3px;
+  border-radius: 3px;
+}
+
 .highlight {
   background: $blue-black;
-
-  .highlighter-rouge & {
-    background: #eef;
-  }
 
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
