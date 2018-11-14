@@ -1,7 +1,7 @@
 # General Site Settings
 title:            Adam Lombard
 description:      Homepage of Adam Lombard -- novelist, developer, co-author of Manly Hero
-baseurl:          "/galada"
+baseurl:          ""
 url:              "http://www.adamlombard.com"
 
 # About Section
