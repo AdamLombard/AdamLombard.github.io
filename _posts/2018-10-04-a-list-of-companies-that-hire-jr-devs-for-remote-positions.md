@@ -2,7 +2,8 @@
 layout: post
 title: "A List of Companies that Hire Jr Devs for Remote Positions"
 image: arms_out.jpg
-tags: [Ruby]
+opacity: 0.6
+tags: [Software]
 ---
 
 A few weeks ago, [@isaacandsuch](https://dev.to/isaacandsuch) posted a great article about [hiring junior developers](https://dev.to/isaacandsuch/if-you-dont-hire-juniors-you-dont-deserve-seniors-48kb).

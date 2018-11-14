@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Easy Ruby: Plus-Equals (+=) vs. Shovel (<<)"
+image: 04.jpg
+opacity: 0.8
+tags: [Ruby]
 ---
 
 _Understanding how plus-equals and shovel affect strings in Ruby_
