@@ -24,34 +24,23 @@
   {% endif %}
 
   <div class="widget widget-social">
-    <h3 class="widget-title">Subscribe & Follow</h3>
+    <h3 class="widget-title">Social Links</h3>
     <ul class="social-profiles list-reset">
-      {% if site.facebook %}
+      {% if site.twitter %}
       <li class="social-profiles-item">
-        <a href="{{ site.facebook }}" class="social-profiles-link"><i class="ion ion-logo-facebook"></i></a>
+        <a href="{{ site.twitter }}" class="social-profiles-link" title="follow me on twitter"><i class="ion ion-logo-twitter"></i></a>
       </li>
       {% else %} {% endif %}
 
-       {% if site.twitter %}
+      {% if site.github %}
       <li class="social-profiles-item">
-        <a href="{{ site.twitter }}" class="social-profiles-link"><i class="ion ion-logo-twitter"></i></a>
-      </li>
-      {% else %} {% endif %}
-
-      {% if site.instagram %}
-      <li class="social-profiles-item">
-        <a href="{{ site.instagram }}" class="social-profiles-link"><i class="ion ion-logo-instagram"></i></a>
-      </li>
-      {% else %} {% endif %}
-
-      {% if site.pinterest %}
-      <li class="social-profiles-item">
-        <a href="{{ site.pinterest }}" class="social-profiles-link"><i class="ion ion-logo-pinterest"></i></a>
+        <a href="{{ site.github }}" class="social-profiles-link" title="check out my github repos"><i class="ion ion-logo-github"></i></a>
       </li>
       {% else %} {% endif %}
     </ul>
   </div>
 
+  {% if site.mailchimp %}
   <div class="widget widget-newsletter">
     <h3 class="widget-title">Newsletter</h3>
     <div class="newsletter-subtitle">Get Interesting News</div>
@@ -68,8 +57,9 @@
       </div>
     </form>
   </div>
+  {% endif %}
 
-  {% if site.instafeed == true %}
+  {% if site.instafeed %}
   <div class="widget widget-instagram">
     <h3 class="widget-title">Instagram</h3>
     <div class="instagram-box">
