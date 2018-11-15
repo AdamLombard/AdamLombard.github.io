@@ -17,7 +17,10 @@ layout: default
 							{% endfor %}
 						{% else %} {% endif %}
 						</div> -->
-						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
+            <h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
+            <div class="article-date">
+              <span class="date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+            </div>
 						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
 						<!-- <a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a> -->
 					</div>
