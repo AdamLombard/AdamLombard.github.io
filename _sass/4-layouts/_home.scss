@@ -28,6 +28,12 @@
   }
 }
 
+.menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .nav-menu,
 .search {
   position: fixed;
@@ -123,7 +129,7 @@
 
 .nav-buttons {
   i.ion {
-    margin-left: 10px;
+    margin-left: 18px;
     font-size: 20px;
     vertical-align: middle;
     color: $text;
