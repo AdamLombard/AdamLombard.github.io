@@ -3,8 +3,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
+  <title>Adam Lombard | {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 155 }}{% else %}{{ site.description }}{% endif %}'>
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@AdamLombard">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:creator" content="@AdamLombard">
+  <meta name="twitter:image" content="{{ site.url }}/img/{{ page.image }}">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ site.url }}/{{ page.url-resource }}" />
+  <meta property="og:image" content="{{ site.url }}/img/{{ page.image }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:site_name" content="Adam Lombard" />
+
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
