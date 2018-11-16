@@ -2,7 +2,7 @@
 layout: post
 title: Writing through the curves
 image: go-kart.jpg
-opacity: 0.6
+opacity: 0.8
 tags: [Writing]
 ---
 
