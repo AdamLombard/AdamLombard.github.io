@@ -1,34 +1,56 @@
-# Site settings
-title:          Adam Lombard
-description:    "Homepage of Adam Lombard -- novelist, developer, co-author of Manly Hero"
-url:            "http://www.adamlombard.com"
+# General Site Settings
+title:            Adam Lombard
+description:      Homepage of Adam Lombard -- novelist, developer, co-author of Manly Hero
+baseurl:          ""
+url:              "http://www.adamlombard.com"
+
+# About Section
+author-name:      Adam
+author-avatar:
+
+# Contact links
+facebook:
+github:           https://github.com/AdamLombard
+twitter:          https://twitter.com/AdamLombard
+instagram:
+pinterest:
+
+# Comment Section (Disqus)
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+# Instagram Feed
+instafeed:        false # To enable the instafeed, use the value true. To turn off use the value false.
 
 # Google Analytics
-google_analytics: UA-97953343-1
+google-analytics: UA-97953343-1 # Add your identifier. For example UA-99631805-1.
 
-# Author
-author:
-  name:         Adam Lombard
-  url:          http://www.adamlombard.com
-  email:        siradamlombard@gmail.com
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
+permalink: ':title/'
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/page/:num"
+
 include:
   - _pages
 
-# Assets
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir: _sass
+  style: compressed
 
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
-
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

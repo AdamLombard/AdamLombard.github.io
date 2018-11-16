@@ -1,14 +1,15 @@
 ---
 layout: page
-title: "About Me"
+title: About
+image: astronaut.jpg
 permalink: /about/
 ---
 
-I'm a writer and software developer living in the Pacific Northwest.
+Hi, I'm Adam! I'm a writer and software developer living in the Pacific Northwest.
 
-I write the [Manly Hero](http://www.manlyhero.com) series with my partner, Petra, under the pen name [Adrastus Rood](http://www.adrastusrood.com).
+I write the [Manly Hero](http://www.manlyhero.com) series with my partner, [Petra](https://www.petrahernandez.com), under the pen name [Adrastus Rood](http://www.adrastusrood.com).
 
 ## Contact
 
-* [Twitter](https://twitter.com/AdamLombard)
-* [GitHub](https://github.com/AdamLombard)
+* [Twitter]({{ site.twitter }})
+* [GitHub]({{ site.github }})

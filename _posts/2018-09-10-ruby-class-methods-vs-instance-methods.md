@@ -1,13 +1,16 @@
 ---
 layout: post
 title: "Ruby: class methods vs. instance methods"
+image: tiny-bus.jpg
+opacity: 0.7
+tags: [Ruby, Code]
 ---
 
 In Ruby, a _method_ provides functionality to an Object. A _class method_ provides functionality to a class itself, while an _instance method_ provides functionality to one instance of a class.
 
 Consider the following Ruby class:
 
-```ruby
+{% highlight ruby %}
 class SayHello
   def self.from_the_class
     "Hello, from a class method"
@@ -17,11 +20,11 @@ class SayHello
     "Hello, from an instance method"
   end
 end
-```
+{% endhighlight %}
 
 This would yield the following:
 
-```
+{% highlight text %}
 >> SayHello.from_the_class
 => "Hello, from a class method"
 
@@ -35,7 +38,7 @@ This would yield the following:
 
 >> hello.from_an_instance
 => "Hello, from an instance method"
-```
+{% endhighlight %}
 
 We cannot call an instance method on the class itself, and we cannot directly call a class method on an instance.
 
