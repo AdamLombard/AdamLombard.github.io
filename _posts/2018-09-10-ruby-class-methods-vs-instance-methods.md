@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Ruby: class methods vs. instance methods"
+title: "Easy Ruby: class methods vs. instance methods"
+description: Understanding the difference between class methods and instance methods in Ruby
 image: tiny-bus.jpg
 opacity: 0.7
 tags: [Ruby, Code]
+categories: blog
 ---
 
 In Ruby, a _method_ provides functionality to an Object. A _class method_ provides functionality to a class itself, while an _instance method_ provides functionality to one instance of a class.

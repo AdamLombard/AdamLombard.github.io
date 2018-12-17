@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Writing through the curves
-url-resource: writing-through-the-curves
 description: Some days I write on a straightaway at full speed. Other days, I need to slow down and write through a curve.
 image: go-kart.jpg
 opacity: 0.8
 tags: [Writing]
+categories: blog
 ---
 
 At the end of each day my partner, [Petra](https://www.petrahernandez.com), asks me "How did writing go?"

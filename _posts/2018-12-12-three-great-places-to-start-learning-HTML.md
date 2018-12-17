@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Three great places to start learning HTML
-url-resource: three-great-places-to-start-learning-HTML
 description: You can jumpstart your HTML journey for free &mdash; it won't even cost you an email address.
 image: html.jpg
 opacity: 0.8
 tags: [Code]
+categories: blog
 ---
 
 I'm always on the hunt for great learning resources &mdash; both for myself, and for anyone who asks me how to get started as a developer. 
