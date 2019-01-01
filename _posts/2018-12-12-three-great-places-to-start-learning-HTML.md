@@ -2,7 +2,7 @@
 layout: post
 title: Three great places to start learning HTML
 description: You can jumpstart your HTML journey for free &mdash; it won't even cost you an email address.
-image: html.jpg
+image: sai-kiran-anagani-61187-unsplash.jpg
 opacity: 0.8
 tags: [Code]
 categories: blog

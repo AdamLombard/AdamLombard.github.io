@@ -2,7 +2,7 @@
 layout: post
 title: "Easy Ruby: Plus-Equals (+=) vs. Shovel (<<)"
 description: Understanding how plus-equals and shovel affect strings in Ruby
-image: snow-house.jpg
+image: todd-diemer-110885-unsplash.jpg
 opacity: 0.8
 tags: [Ruby, Code]
 categories: blog

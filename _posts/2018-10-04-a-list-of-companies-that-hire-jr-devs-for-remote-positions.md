@@ -2,7 +2,7 @@
 layout: post
 title: "A List of Companies that Hire Jr Devs for Remote Positions"
 description: It can be extra hard for junior developers to find remote work.
-image: arms_out.jpg
+image: sai-kiran-anagani-209542-unsplash.jpg
 opacity: 0.6
 tags: [Career, Code]
 categories: blog

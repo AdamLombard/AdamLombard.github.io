@@ -2,7 +2,7 @@
 layout: post
 title: "Easy Ruby: class methods vs. instance methods"
 description: Understanding the difference between class methods and instance methods in Ruby
-image: tiny-bus.jpg
+image: joel-fulgencio-677683-unsplash.jpg
 opacity: 0.7
 tags: [Ruby, Code]
 categories: blog
