@@ -1,0 +1,1 @@
+Images should be 1920w (and ideally 1280h).
